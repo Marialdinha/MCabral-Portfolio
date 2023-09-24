@@ -1,0 +1,274 @@
+/* || GENERIC STYLING */
+
+:root{
+    --project_color:rgb(63, 62, 64);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+     /* … */
+    background-color: #81b0c8;
+}
+
+p {
+    /* … */
+    font-size: 16px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+/* || HEADER */
+
+header {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    width: 100%;
+}
+
+header h1 {
+    /* … */
+    padding-top: 8px;
+    font-size: 32px;
+    color: #d9dcd6; 
+    display: inline-block;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.header div {
+    /* … */
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+
+.header div ul li {
+    /* … */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header a {
+    /* … */
+    color: #ffffff;
+    text-decoration: none; 
+}
+
+/* || MAIN */
+
+.back-image-container{
+    width: 100%;
+    text-align: center;
+}
+
+.back-image {
+    /* … */
+    display: flex;
+    align-items: flex-end;
+    height: 450px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: #0072bb;
+    background-size: cover;
+    background-position: center;
+}
+
+.back-image-caption1{
+    /* … */
+    background-color:transparent;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family:cursive;
+    font-size: 18px;
+    color: rgb(37, 24, 8);
+}
+
+.back-image-caption2{
+    /* … */
+    background-color: transparent;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family:cursive;
+    color: rgb(37, 24, 8);
+    text-align: end;
+    
+}
+.content-container {
+    /* … */
+    width:100%;   
+}
+
+.content {
+    /* … */
+    width:80%;
+    display:grid; 
+    margin-left: 10%;
+}
+
+
+.content_section{
+    /* … */
+    display: flex;
+    padding: 15px;
+    width: 100%;
+   
+}
+
+.content_h2{
+    /* … */
+    display: flex;
+    margin-bottom: 20px;
+    font-size: 24px;
+    flex: 10%;
+}
+
+.content_h2_div {
+    /* … */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 30px;
+    border-left: black;
+    border-left: solid;
+    border-width:medium;
+    margin-left: 10px;
+    width: fit-content;
+    flex: 90%;
+}
+
+.left {
+ float: left;
+ padding: 0 10px 0 0;
+ height: 100px;}
+
+.pictures{
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+}
+
+.pictures h3{
+padding: 15px;
+font-size: 18px;
+}
+
+#Pic1{
+    flex-basis: 100%;
+    min-height: 300px;
+    min-width: 300px;
+    background-image: url('../images/image-1.png');
+    color:rgb(232, 229, 241) ; 
+    padding-left: 300px;
+}
+
+#Pic2{
+    flex-basis: 50%;
+    min-height: 200px;
+    background-image: url('../images/Project2-travelogue.png');
+    color:var(--project_color);
+}
+
+#Pic3{
+    flex-basis: 50%;
+    min-height: 200px;
+    background-image: url('../images/Background3.jpeg');
+    color:var(--project_color);
+}
+
+#Pic4{
+    flex-basis: 50%;
+    min-height: 200px;
+    background-image: url('../images/Background4.jpeg');
+    color:var(--project_color); 
+}
+
+#Pic5{
+    flex-basis: 50%;
+    min-height: 200px;
+    background-image: url('../images/Background5.jpeg');
+    color:var(--project_color);
+}
+
+main section ul li {
+    /* … */
+    display: inline-block;
+    margin-left: 25px;
+}
+
+main a {
+    /* … */
+    color: black;
+    text-decoration: none; 
+}
+
+#contact-me a {
+    /* … */
+    color: black;
+    text-decoration: underline; 
+    font-size: 25px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; 
+}
+
+#contact-me ul{
+    /* … */
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* FOOTER */
+.footer {
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+}
+
+.footer h2 {
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: underline; 
+}
+
+footer a {
+    /* … */
+    color: #ffffff;
+}
+
+
+
+@media screen and (max-width: 960px) {
+ 
+ main section ul li {
+     /* … */
+     display: block;
+     margin-left: 0px;
+     padding-bottom: 10px;
+     width: 100%;
+ }
+}
+
+@media screen and (max-width: 768px) {
+
+   .content_section{
+    /* … */
+    display: grid;
+    padding: 15px;
+    width: 100%;
+ }
+}
+
+   
