@@ -13,14 +13,18 @@ function App() {
 
   return (
     <>
-     <div>
-      <Nav />
-      <main>
-        <BackImg />
-        <AboutMe />
-        <Work />
-      </main>
-    </div>
+      <div>
+        <Nav />
+        <main>
+          <BackImg />
+          <div className="content-container ">
+            <div className="content">
+          <AboutMe />
+          <Work />
+          </div>
+          </div>
+        </main>
+      </div>
     </>
   )
 }

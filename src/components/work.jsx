@@ -19,6 +19,6 @@ export default function Work() {
                         <h3> Project 5 </h3>
                     </a>
                     </div>
-                </section>
+    </section>
 );
 }
