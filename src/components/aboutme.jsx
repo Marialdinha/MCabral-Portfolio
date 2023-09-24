@@ -1,5 +1,4 @@
 import MyPic from '../assets/images/mypic.jpg';
-// import { Image } from 'react-native';
 
 export default function AboutMe() {
 

@@ -169,7 +169,7 @@ font-size: 18px;
     flex-basis: 100%;
     min-height: 300px;
     min-width: 300px;
-    background-image: url('../images/image-1.png');
+    background-image: url('../assets/images/image-1.png');
     color:rgb(232, 229, 241) ; 
     padding-left: 300px;
 }
@@ -177,28 +177,28 @@ font-size: 18px;
 #Pic2{
     flex-basis: 50%;
     min-height: 200px;
-    background-image: url('../images/Project2-travelogue.png');
+    background-image: url('../assets/images/Project2-travelogue.png');
     color:var(--project_color);
 }
 
 #Pic3{
     flex-basis: 50%;
     min-height: 200px;
-    background-image: url('../images/Background3.jpeg');
+    background-image: url('../assets/images/Background3.jpeg');
     color:var(--project_color);
 }
 
 #Pic4{
     flex-basis: 50%;
     min-height: 200px;
-    background-image: url('../images/Background4.jpeg');
+    background-image: url('../assets/images/Background4.jpeg');
     color:var(--project_color); 
 }
 
 #Pic5{
     flex-basis: 50%;
     min-height: 200px;
-    background-image: url('../images/Background5.jpeg');
+    background-image: url('../assets/images/Background5.jpeg');
     color:var(--project_color);
 }
 

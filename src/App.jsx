@@ -4,8 +4,9 @@
 // import '/apps.css'
 // import '/App.css'
 import Nav from './components/Nav.jsx';
-import BackImg from './components/BackImg.jsx';
+import BackImg from './components/backImg.jsx';
 import AboutMe from './components/aboutme.jsx';
+import Work from './components/work.jsx';
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <main>
         <BackImg />
         <AboutMe />
+        <Work />
       </main>
     </div>
     </>
