@@ -2,11 +2,15 @@ import FingOfGod from '../assets/images/Finger_of_God.jpeg';
 
 export default function BackImg() {
 
+
+const style = {
+  backgroundImage: `url(${FingOfGod})`,
+  backgroundRepeat:"no-repeat",
+}
+
 return(
 <div className="back-image-container">
-    <section className="back-image" style={{backgroundImage: `url(${FingOfGod})`,
-             backgroundRepeat:"no-repeat",
-       }}>
+    <section className="back-image" style={style}>
        <div>
          <h2 className="back-image-caption1">The greatest glory in living lies not in never falling, but in
                 rising every time we fall.</h2>
