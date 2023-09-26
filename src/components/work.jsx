@@ -1,7 +1,7 @@
 export default function Work() {
    return(
     <section id="work" className="content_section">
-                    <h2 className="content_h2"> Work </h2>
+                    <h2 className="content_h2"> Portfolio </h2>
                     <div className="content_h2_div">
                     <a href="https://marialdinha.github.io/RPS-game/" id="Pic1" className="pictures">
                         <h3> Project 1 </h3>

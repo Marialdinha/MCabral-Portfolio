@@ -3,7 +3,7 @@ export default function Contact() {
     return(
 
         <section id="contact-me" className="content_section">
-        <h2 className="content_h2"> Contact Me </h2>
+        <h2 className="content_h2"> Contact</h2>
         <div className="content_h2_div">
             <nav>
                 <ul>
